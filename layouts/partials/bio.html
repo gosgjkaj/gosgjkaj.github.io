@@ -1,0 +1,33 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+{{ $image := resources.Get $avatar_img }}
+<div class="author">
+    {{ with $image }}
+    {{ if eq .MediaType.SubType "svg" }}
+    <svg width="25em" height="25em" xmlns="http://www.w3.org/2000/svg">
+        <image width="25em" height="25em" href="{{ $image.RelPermalink }}" />
+    </svg>
+    {{ else }}
+    {{ $image := $image.Fill "300x300 webp" }}
+    <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
+        height="{{ .Height }}" />
+    {{ end }}
+    {{ end }}
+    <h1 class="author-name">{{ .Site.Params.author.intro }}</h1>
+
+    <div class="footer_social-icons">
+        {{- partial "socialIcons.html" site.Params.socialIcons -}}
+    </div>
+
+    <h3 class="author-bio">{{ .Site.Params.author.description }} </h3>
+
+
+    <p style="max-width: 95%; text-align: center" class="author-bio">
+
+        Computing Science Ph.D candidate under the supervision of Professor <a href="https://ofey.me/" style="font-weight: lighter">Fei Sun</a>.  <br/>
+ 
+        You can find my resume <a href="https://drive.google.com/file/d/1Ls_ce0kLsxl9yLShopSJ3qmdgKWM_xmd/view?usp=sharing" style="font-weight: lighter"> HERE </a>.
+
+    </p>
+
+</div>
