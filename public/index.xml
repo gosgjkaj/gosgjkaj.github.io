@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Haowen Li</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in Home on Haowen Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       
       <description>&lt;p&gt;Hi there! This is Haowen Li (厉浩文), I am a Ph.D. candidate in Computing Science at the &lt;a href=&#34;%5Bhttp:///%5D(http://english.ict.cas.cn/)&#34;&gt;Institude of Computing Technology&lt;/a&gt;, &lt;a href=&#34;https://english.cas.cn/&#34;&gt;Chinese Academy of Seiences&lt;/a&gt;, under the supervision of Professor &lt;a href=&#34;https://ofey.me/&#34;&gt;Fei Sun&lt;/a&gt;, Professor &lt;a href=&#34;https://ict.cas.cn/sourcedb/cn/jssrck/201402/t20140221_4037648.html&#34;&gt;Huawei Shen&lt;/a&gt; and Professor &lt;a href=&#34;http://www.bigdatalab.ac.cn/cxq/&#34;&gt;Xueqi Cheng&lt;/a&gt;. Prior to this, I received both my B.Sc and M.Sc in Computing Science from the &lt;a href=&#34;https://www.gla.ac.uk/&#34;&gt;University of Glasgow&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My research interests include &lt;strong&gt;recommender systems&lt;/strong&gt;, &lt;strong&gt;data minimization&lt;/strong&gt;, and &lt;strong&gt;machine unlearning&lt;/strong&gt;.&lt;/p&gt;</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>Emerging Trends in Recommendation Privacy: Data Minimization and Unlearning</title>
-      <link>//localhost:1313/posts/test/</link>
+      <link>/posts/emerging-trends-in-recommendation-privacy-data-minimization-and-unlearning/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/test/</guid>
+      <guid>/posts/emerging-trends-in-recommendation-privacy-data-minimization-and-unlearning/</guid>
       
       <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h1&gt;</description>
       

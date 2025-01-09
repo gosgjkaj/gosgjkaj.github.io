@@ -8,7 +8,7 @@
         <image width="25em" height="25em" href="{{ $image.RelPermalink }}" />
     </svg>
     {{ else }}
-    {{ $image := $image.Fill "300x300 webp" }}
+    {{ $image := $image.Fill "500x500 webp" }}
     <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
         height="{{ .Height }}" />
     {{ end }}

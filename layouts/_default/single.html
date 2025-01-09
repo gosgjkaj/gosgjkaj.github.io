@@ -2,7 +2,7 @@
 <div class="wrapper post">
     <main class="page-content" aria-label="Content">
         <article>
-            <header class="header">
+            <!-- <header class="header">
                 <h1 class="header-title">{{ .Title }}</h1>
                 {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
                 {{ with .Date }}
@@ -11,7 +11,24 @@
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
                 </div>
                 {{ end }}
+            </header> -->
+
+            <header class="header">
+                <h1 class="header-title">{{ .Title }}</h1>
+                {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+            
+                <div class="post-meta">
+                    {{ if .Params.dateTBD }}
+                        <span>TBD</span>
+                    {{ else }}
+                        {{ $ISO_time := .Date.Format "2006-01-02T15:04:05-07:00" }}
+                        <time datetime="{{ $ISO_time }}" itemprop="datePublished">
+                            {{ .Date.Format $configDateFormat }}
+                        </time>
+                    {{ end }}
+                </div>
             </header>
+            
             {{ partial "toc.html" .}}
             <div class="page-content">
                 {{ .Content }}
