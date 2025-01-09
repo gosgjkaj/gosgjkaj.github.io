@@ -1,7 +1,7 @@
 ---
 title: About
 description: 'About'
-date: '2025-01-09'
+date: 2025-01-09
 author: Haowen Li
 toc: false
 ---
