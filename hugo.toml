@@ -34,7 +34,7 @@ theme = "hugo-blog-awesome"
     weight = 10
   [[menu.main]]
     pageRef="posts"
-    name = 'Posts'
+    name = 'Publications'
     url = '/posts/'
     weight = 20
   [[menu.main]]
@@ -71,7 +71,7 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Haowen Li"
   name = "Haowen Li"
-  description = "I'm on a race of my own. PhD Candidate"
+  description = "I'm on a race of my own."
 
 # Allow to override webmanifest options
 [params.webmanifest]
@@ -91,3 +91,7 @@ theme = "hugo-blog-awesome"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/gosgjkaj"
+
+[[params.socialIcons]]
+name = "email"
+url = "gosgjkaj@gmail.com"

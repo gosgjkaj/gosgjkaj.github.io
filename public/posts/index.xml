@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Haowen Li</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content in Home on Haowen Li</description>
+    <title>Posts on Haowen Li</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Haowen Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/about/</guid>
-      
-      <description>&lt;h2&gt;Hello&lt;/h2&gt;</description>
-      
-    </item>
-    
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emerging Trends in Recommendation Privacy: Data Minimization and Unlearning</title>
       <link>//localhost:1313/posts/test/</link>
