@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Haowen Li</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Haowen Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emerging Trends in Recommendation Privacy: Data Minimization and Unlearning</title>
-      <link>//localhost:1313/posts/test/</link>
+      <link>/posts/test/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/test/</guid>
+      <guid>/posts/test/</guid>
       
       <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h1&gt;</description>
       
